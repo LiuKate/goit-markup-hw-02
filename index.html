@@ -5,27 +5,30 @@
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/styles.css"
   </head>
-  <body>
-    <header>
+  <body class="body">
+    <header class="site-header">
       <nav>
-        <a href="/">WEB STUDIO</a>
-        <ul>
-          <li>
-            <a href="">Студия</a>
+        <a href="/" class="logo">
+          <span class="logo-blue">WEB</span>
+          <span class="logo-black">STUDIO</span>
+        </a>
+        <ul class="site-nav list">
+          <li class="nav-item">
+            <a href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="">Портфолио</a>
+          <li class="nav-item">
+            <a href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="contacts list">
+        <li class="contacts-item">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="contacts-item">
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
@@ -35,40 +38,40 @@
       <div>
         <!--Место для картинки-героя-->
         <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
+          <h1 class="main-slogan">Эффективные решения для вашего бизнеса</h1>
+          <a href="" class="button">Заказать услугу</a>
         </section>
       </div>
       <!--Секция без названия-->
       <section>
-        <ul>
-          <li>
+        <ul class="benefits list">
+          <li class="benefits-list">
             <img src=".svg" alt="Изображение антенны" width="270" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="benefits-list-name">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="benefits-list">
             <img src=".svg" alt="Изображение часов" width="270" />
-            <h3>Пунктуальность</h3>
+            <h3 class="benefits-list-name">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="benefits-list">
             <img src=".svg" alt="Изображение ноутбука" width="270" />
-            <h3>Планирование</h3>
+            <h3 class="benefits-list-name">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="benefits-list">
             <img src=".svg" alt="Изображение космонавта" width="270" />
-            <h3>Современные технологии</h3>
+            <h3 class="benefits-list-name">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -78,43 +81,43 @@
       </section>
       <!--Секция чем мы занимаемся-->
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <h2 class="section-name">Чем мы занимаемся</h2>
+        <ul class="business list">
+          <li class="business-item">
             <img
               src="./images/img_Laptop.png"
               alt="Фото ноутбука"
               width="370"
             />
-            <h3>Десктопные приложения</h3>
+            <h3 class="business-item-name">Десктопные приложения</h3>
           </li>
-          <li>
+          <li class="business-item">
             <img src="./images/img_Phone.png" alt="Фото телефона" width="370" />
-            <h3>Мобильные приложения</h3>
+            <h3 class="business-item-name">Мобильные приложения</h3>
           </li>
-          <li>
+          <li class="business-item">
             <img
               src="./images/img_Monitor.png"
               alt="Фото монитора"
               width="370"
             />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="business-item-name">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--Секция наша команда-->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+        <h2 class="section-name">Наша команда</h2>
+        <ul class="team list">
+          <li class="team-member">
             <img
               src="./images/imgJS.png"
               alt="Фотопортрет Джона Смита"
               width="268"
             />
-            <h3>John Smith</h3>
+            <h3 class="team-member-name">John Smith</h3>
             <p>Product Designer</p>
-            <ul>
+            <ul cla>
               <li>
                 <a href=""></a>
               </li>
@@ -129,13 +132,13 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/img_MS.png"
               alt="Фотопортрет Марты Стеарт"
               width="268"
             />
-            <h3>Marta Stewart</h3>
+            <h3 class="team-member-name">Marta Stewart</h3>
             <p>Frontend Developer</p>
             <ul>
               <li>
@@ -152,13 +155,13 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/imgRJ.png"
               alt="Фотопортрет Роберта Якис"
               width="268"
             />
-            <h3>Robert Jakis</h3>
+            <h3 class="team-member-name">Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
               <li>
@@ -175,13 +178,13 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/imgMD.png"
               alt="Фотопортрет Мартина Доэ"
               width="268"
             />
-            <h3>Martin Doe</h3>
+            <h3 class="team-member-name">Martin Doe</h3>
             <p>UI Designer</p>
             <ul>
               <li>
@@ -202,7 +205,7 @@
       </section>
       <!--Секция постоянные клиенты-->
       <section>
-        <h2>Постоянные клиенты</h2>
+        <h2 class="section-name">Постоянные клиенты</h2>
         <ul>
           <li>
             <a>

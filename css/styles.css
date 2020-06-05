@@ -1,0 +1,76 @@
+/* color: #212121 - черный на ссылке портфолио и пр - secondary color */
+/* color: #757575 - серый - primary color*/
+/* color: #2196F3 - синий на лого - accent */
+/* color: #FFFFFF - белый на герое и ссылках - white */
+/* color: #000000 - черный на лого  */
+
+/* background: rgba(47, 48, 58, 0.8) - светло-серый -bgr color primary*/
+/* background: #F5F4FA - темно-серый - bgr color secondary*/
+/* background: #2F303A - бэкграунд футера */
+
+:root {
+  --primary-color: #757575;
+  --secondary-color: #212121;
+  --accent-blue: #2196f3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+.list {
+  list-style: none;
+}
+
+.body {
+  color: var(--primary-color);
+}
+.section-name {
+  color: var(--secondary-color);
+}
+.button {
+  color: var(--color-white);
+}
+
+/* Стили Шапки*/
+
+.site-header {
+  color: var();
+}
+
+.logo-blue {
+  color: var(--accent-blue);
+}
+.logo-black {
+  color: var(--color-black);
+}
+.site-nav {
+  color: var(--secondary-color);
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-blue);
+}
+.contacts {
+  color: var(--primary-color);
+}
+.contacts :hover,
+.contacts :focus {
+  color: var(--accent-blue);
+}
+
+/*Стили секции Герой*/
+.main-slogan {
+  color: var(--color-white);
+}
+
+/*Cтили Секции без названия*/
+.benefits-list-name {
+  color: var(--secondary-color);
+}
+/*Стили секции чем мы занимаемся*/
+
+.business > li {
+  color: var(--color-white);
+}
+/*Стили секции наша команда*/
+.team-member-name {
+  color: var(--secondary-color);
+}
