@@ -3,6 +3,7 @@
 /* color: #2196F3 - синий на лого - accent */
 /* color: #FFFFFF - белый на герое и ссылках - white */
 /* color: #000000 - черный на лого  */
+/*color: rgba(255, 255, 255, 0.6) - белый в футере - white-footer*/
 
 /* background: rgba(47, 48, 58, 0.8) - светло-серый -bgr color primary*/
 /* background: #F5F4FA - темно-серый - bgr color secondary*/
@@ -14,6 +15,7 @@
   --accent-blue: #2196f3;
   --color-white: #ffffff;
   --color-black: #000000;
+  --white-footer: rgba(255, 255, 255, 0.6);
 }
 .list {
   list-style: none;
@@ -31,17 +33,16 @@
 
 /* Стили Шапки*/
 
-.site-header {
-  color: var();
-}
-
 .logo-blue {
   color: var(--accent-blue);
 }
 .logo-black {
   color: var(--color-black);
 }
-.site-nav {
+.logo-white {
+  color: var(--color-white);
+}
+.nav-item {
   color: var(--secondary-color);
 }
 .site-nav :hover,
@@ -73,4 +74,15 @@
 /*Стили секции наша команда*/
 .team-member-name {
   color: var(--secondary-color);
+}
+
+/*Футер*/
+.adress-main {
+  color: var(--color-white);
+}
+.adress-links {
+  color: var(--white-footer);
+}
+.join {
+  color: var(--color-white);
 }
