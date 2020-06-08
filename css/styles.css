@@ -67,7 +67,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14x;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -80,7 +80,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14x;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts :hover,
@@ -204,21 +204,15 @@
   color: var(--color-white);
 }
 .portfolio-item-name {
-    font-style: 700;
-    font-size: 18px;
-    Line Height: 2;
-    Align: Left;
-    Vertical Align: Top;
-    Letter Spacing: 0.06;
-    color: var(--secondary-color);
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-color);
 }
 .portfolio-item-path {
-    font-size: 16px;
-    Line Height: 1.88;
-    Align: Left;
-    Vertical Align: Top;
-    Letter Spacing: 0.03;
-    color: var(--primary-color)
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-color);
 }
 
 /*
