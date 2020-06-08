@@ -35,6 +35,9 @@
 
 /* Стили Шапки*/
 
+.logo {
+  text-decoration: none;
+}
 .logo-blue {
   color: var(--accent-blue);
   font-family: Raleway;
@@ -42,7 +45,6 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .logo-black {
   color: var(--color-black);
@@ -51,7 +53,6 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .logo-white {
   color: var(--color-white);
@@ -60,7 +61,6 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .site-nav a {
   color: var(--secondary-color);
